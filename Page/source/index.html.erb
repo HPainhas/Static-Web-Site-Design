@@ -1,0 +1,18 @@
+---
+title: Michael D. Bond at The Ohio State University
+---
+
+<h1 class="center-text">Michael D. Bond</h1>
+
+<table class="center">
+    <tr>
+        <td><%= image_tag 'michael_d_bond.jpeg', :class => 'skyscraper'%></td>
+        <td>
+            <% data.home.about.each do |l| %>
+                <div class="about-item">
+                    <%= l %>
+                </div>
+            <% end %>
+        </td>
+    </tr>
+</table>
