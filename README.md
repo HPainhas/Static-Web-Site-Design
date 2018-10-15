@@ -1,5 +1,7 @@
 # Static-Web-Site-Design
 
+Redesigned home page of Michael D. Bond (old page: http://web.cse.ohio-state.edu/~mikebond/)
+
 ## Getting Started
 
 ### Prerequisites
