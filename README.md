@@ -8,7 +8,7 @@ Make sure you have [git](https://git-scm.com/) and [Ruby 2.5.1](https://ruby-doc
 ### Installation
 Clone the repo using
 ```
-git clone https://github.com/cse3901-2018au-1730/The330PageRedesign
+git clone https://github.com/HPainhas/Static-Web-Site-Design
 ```
 
 Install required gems by executing the following command
