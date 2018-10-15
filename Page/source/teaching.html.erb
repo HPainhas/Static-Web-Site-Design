@@ -1,0 +1,20 @@
+---
+title: Teaching
+---
+
+<h1 class="center-text"> Teaching </h1>
+
+<table class="center">
+    <tr>
+        <th> Classes teaching </th>
+    </tr>
+    <% data.teaching.classes.each do |l| %>
+        <tr>
+            <td>
+                <div> <%= l %> </div>
+            </td>
+        </tr>
+    <% end %>
+</table>
+
+<h3 class="center-text"> <a href="./past_teaching.html" target="_blank"> Past Teaching </a> </h3>
