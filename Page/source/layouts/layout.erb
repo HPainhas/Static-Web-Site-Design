@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Use the title from a page's frontmatter if it has one -->
+        <title><%= current_page.data.title || "Michael D. Bond at The Ohio State University" %></title>
+        <%= stylesheet_link_tag "site" %>
+        <%= javascript_include_tag "site" %>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/news.html">News</a>
+            <a href="/research.html">Research</a>
+            <a href="/teaching.html">Teaching</a>
+            <a href="/misc.html">Miscellaneous</a>
+        </div>
+
+        <%= yield %>
+
+        <div id="footer" class="center-text">
+            <div>
+                Contact:
+                <a href="mailto:mikebond@cse.ohio-state.edu">mikebond@cse.ohio-state.edu</a>
+            </div>
+            <div>
+                Office: 697 Dreese Labs
+            </div>
+        </div>
+    </body>
+</html>
