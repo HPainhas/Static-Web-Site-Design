@@ -1,0 +1,39 @@
+---
+title: Research
+---
+
+<h1 class="center-text"> Research </h1>
+
+<p> My <a href="http://web.cse.ohio-state.edu/~mikebond/plass.html" target="_blank"> research group </a> develops program analyses and software systems that make complex, concurrent software significantly more reliable, scalable, and secure than it is today. </p>
+
+<a href="http://web.cse.ohio-state.edu/~mikebond/pubs.html" target="_blank"> Publications </a>
+
+<p> <a href="http://web.cse.ohio-state.edu/~mikebond/papers.html" target="_blank"> Publicly available research software </a> (see "Source code" for each paper) </p>
+
+<table class="research-table">
+    <tr>
+        <th> Current Advisees: </th>
+    </tr>
+    <% data.research.current.each do |l| %>
+        <tr>
+            <td> <%= l %> </td>
+        </tr>
+    <% end %>
+</table>
+
+<table class="research-table">
+    <tr>
+        <th> Graduated Advisees, with positions as of 2017 </th>
+        <th> Link to Page </th>
+    </tr>
+    <% data.research.grad.each do |l| %>
+        <tr>
+            <td>
+                <%= l %>
+            </td>
+            <td>
+                <%= link_to("Link", data.research.grad_link[data.research.grad.find_index(l)], target:"_blank") %>
+            </td>
+        </tr>
+    <% end %>
+</table>
